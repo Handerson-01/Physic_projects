@@ -132,7 +132,7 @@ Implicit NONE
 REAL :: f,t
 REAL, intent(in):: x,e
 t= 1.0
-f= 1/(((4.0*(t**2) * (sin(x)) * (sin(x))) - (e**2)- (4 * t * e * cos(x))) ** 0.5)
+f= 1/(4*3.1415926535**2) * (1/(((4.0*(t**2) * (sin(x)) * (sin(x))) - (e**2)- (4 * t * e * cos(x))) ** 0.5))
 !f=x**2
 
 
